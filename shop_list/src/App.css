@@ -8,3 +8,54 @@
 .app_content {
   flex-grow: 1;
 }
+
+/* PALETTE */
+:root{
+  --lightgreen: #8AAF91;
+  --darkgreen: #74886E;
+  --pinky: #F1D7D2;
+  --lightgray: #F6EFE2;
+  --lightbrown: #DAD0C1;
+}
+
+/* BACKGROUNDS */
+.bg_lightgreen{
+  background-color: var(--lightgreen);
+}
+
+.bg_darkgreen{
+  background-color: var(--darkgreen);
+}
+
+.bg_pinky{
+  background-color: var(--pinky);
+}
+
+.bg_lightgray{
+  background-color: var(--lightgray);
+}
+
+.bg_lightbrown{
+  background-color: var(--lightbrown);
+}
+
+/* FONT COLORS */
+.lightgreen{
+  color: var(--lightgreen);
+}
+
+.darkgreen{
+  color: var(--darkgreen);
+}
+
+.pinky{
+  color: var(--pinky);
+}
+
+.lightgray{
+  color: var(--lightgray);
+}
+
+.lightbrown{
+  color: var(--lightbrown);
+}
