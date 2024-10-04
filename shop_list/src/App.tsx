@@ -5,9 +5,10 @@ import AppContent from './components/AppContent'
 
 function App() {
 
+
   return <div id='app'>
             <AppHeader />
-            <AppContent />
+            <AppContent/>
             <AppFooter />
           </div>
   
